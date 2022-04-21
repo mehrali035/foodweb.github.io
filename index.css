@@ -1,0 +1,712 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 16px;
+}
+body{
+    background-color:#F5F5FD;
+    overflow-x: hidden;
+}
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.signup{
+    background-color: #FF6B00;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.2rem;
+    margin-left: 2rem;
+}
+nav ul{
+    width: 100%;
+    text-align: center;
+    background-color: #f3f3f3;
+    display: none;
+}
+nav ul.show {
+    display: block;
+}
+.container ul li {
+    list-style: none;
+    margin-top: 1.5rem;
+    color: #979797;
+}
+.container ul li a{
+    text-decoration: none;
+    color: #979797;
+}
+.container ul li a:hover{
+      color: #FF6B00;
+}
+/* Main section  */
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    flex-wrap: wrap;
+}
+.pizza img{
+    width: 14rem;
+    height: 17rem;
+    margin-top: 6rem;
+}
+.text-block h1{
+    font-size: 1.5rem;
+    padding-left: 4rem;
+}
+.text-block h1 span{
+    color: #FF6B00;
+}
+.text-block p{
+    padding-left: 4rem;
+    color: gray;
+}
+.disbar{
+    width: 16rem;
+    height: 2rem;
+    background-color: rgb(245, 210, 216);
+    margin-left: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1.5rem;
+}
+.disbar button{
+    background-color: #FF6B00;
+    width: 5.5rem;
+    height: 1.9rem;
+    border-radius: 1rem;
+    color: white;
+}
+.para p{
+    font-size: 0.7rem;
+    margin-top: -1.2rem;
+    margin-left: 6rem;
+    color: #FF6B00;
+}
+.block{
+    background-color: #F5F5FD;
+    width: 35rem;
+    height: 32rem;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.logo-block2 img{
+    width: 17rem;
+}
+/* section 2  */
+.main2{
+    background-color: #F5F5FD;
+  
+}
+.step1 h2{
+     color: #222222;
+     font-size: 1rem;
+     text-align: center;
+}
+.step1 span{
+    color: #FF6B00;
+}
+.step2 p{
+    color: #979797;
+    padding-top: 1rem;
+    text-align: center;
+}
+.steps{
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.card1{
+    margin-bottom: -5rem;
+}
+.card2{
+    margin-bottom: -5rem;
+}
+.card3{
+    margin-bottom: -5rem;
+}
+.menu-heading h2{
+    font-size: 1rem;
+    padding-top: 4rem;
+}
+.menu-heading span{
+    color: #FF6B00;
+}
+.foodbar{
+    width: 17rem;
+    height: 2rem;
+    background-color: #E5E5E5;
+    margin-left: 3rem;
+    border-radius: 1rem;
+}
+.foodbar img{
+    padding: 0.6rem 1.3rem;
+    width: 1.3rem;
+    height: 1.3rem;
+}
+.foodbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foodbox img{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    width: 8rem;
+    height: 12rem;
+}
+.media{
+    display: none;
+}
+.media ul li{
+    font-size: 0.6rem;
+}
+.more{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.more h3{
+    color: #FF6B00;
+    font-size: 1rem;
+    padding-top: 1rem;
+}
+.more .arr img{
+    padding-top: 1.4rem;
+
+}
+/* section main 3  */
+.main3{
+    background-color: #E5E5E5;
+}
+.data h3{
+   font-size: 0.7rem;
+   padding-left: 1rem;
+   color: #FF6B00;
+}
+.data h1{
+    font-size: 1.2rem;
+    padding-left: 1rem;
+}
+.data h1 span{
+    color: #FF6B00;
+}
+.data p{
+    font-size: 0.5rem;
+    padding-left: 1rem;
+}
+.btn1 button{
+    background-color: #FF6B00;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 0.6rem;
+    margin-left: 1rem;
+}
+.comment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.comment img{
+    background-color: #F5F5FD;
+    margin-left: 2.5rem;
+    border-radius: 1rem;
+    padding-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+/* section article  */
+.article{
+    background-color: white;
+}
+.heading h5{
+    color: #FF6B00;
+    padding-top: 1rem;
+    padding-left: 10rem;
+}
+.heading h2{
+    padding-left: 8rem;
+    padding-top: 1.5rem;
+    font-size: 1.4rem;
+}
+.heading span{
+    color: #FF6B00;
+}
+.heading p{
+    font-size: 0.8rem;
+    padding-top: 1rem;
+    padding-left: 6rem;
+    padding-bottom: 1rem;
+}
+.apost1{
+   background-color: white;
+   border-radius: 1rem;
+   height: 27rem;
+   width: 18rem;
+   margin-left: 2.4rem;
+}
+.apost1 img{
+    width: 18rem;
+    height: 14rem;
+    padding-left: -0.7rem;
+    padding-top: 0rem;
+}
+.apost1 span{
+    font-size: 0.7rem;
+    padding-left: 1rem
+}
+.apost1 h1{
+    font-size: 1.3rem;
+    padding-left: 1rem;
+    padding-top: 0.6rem;
+}
+.apost1 p{
+   font-size: 0.8rem;
+   padding-left: 1rem;
+   padding-top: 1rem;
+}
+.apost1 button{
+    width: 13rem;
+    height: 2rem;
+    margin-left: 2.3rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    background-color:#FF6B00;
+}
+.apost2{
+    background-color: white;
+    border-radius: 1rem;
+    height: 27rem;
+    width: 18rem;
+    margin-left: 2.4rem;
+    margin-top: 0rem;
+}
+.apost2 img{
+    width: 18rem;
+    height: 14rem;
+    padding-left: -0.7rem;
+    padding-top: 0rem;
+}
+.apost2 span{
+    font-size: 0.7rem;
+    padding-left: 1rem
+}
+.apost2 h1{
+    font-size: 1.3rem;
+    padding-left: 1rem;
+    padding-top: 0.6rem;
+}
+.apost2 p{
+   font-size: 0.8rem;
+   padding-left: 1rem;
+   padding-top: 1rem;
+}
+.apost2 button{
+    width: 13rem;
+    height: 2rem;
+    margin-left: 2.3rem;
+    margin-top: 3rem;
+    border-radius: 2rem;
+    background-color:#FF6B00;
+}
+
+
+.abtn button{
+    background-color: white;
+    color: #FF6B00;
+    margin-left: 5.5rem;
+    margin-top: 3rem;
+    width: 12rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem
+}
+/* F A Q SECTION */
+.QA h4{
+    color: #FF6B00;
+    margin-left: 1rem;
+    margin-top: 5rem;
+}
+.ice img{
+    width: 12rem;
+    height: 12rem;
+}
+.ice{
+    display: none;
+}
+.QA h1{
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+.QA h1 span{
+    color: #FF6B00;
+}
+.order{
+    background-color: #fffbfb;
+    border-radius: 1rem;
+    width: 20.5rem;
+    height: 8rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+.order h2{
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.order .line{
+    border-bottom: 0.1rem solid gray;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+.order p{
+    font-size: 0.8rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.track{
+    background-color: #F4F4F4;
+    width: 20.5rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+.track p{
+    padding-top: 0.7rem;
+    padding-left: 1rem;
+}
+.pay{
+    background-color: #F4F4F4;
+    width: 20.5rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.pay p{
+    padding-top: 0.7rem;
+    padding-left: 1rem;
+}
+.arrowb{
+    background-color: #FF6B00;
+    width: 3rem;
+    height: 2rem;
+    margin-top: 1.5rem;
+    margin-left: 18.55rem;
+    border-radius: 1rem;
+    padding-bottom: 1rem;
+}
+.mem{
+    background-color: #F5F5FD;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    margin-left: 1.8rem;
+    width: 19rem;
+    height: 14rem;
+}
+.mem span{
+    color: #FF6B00;
+    padding-left: 6rem;
+    padding-top: 1rem;
+}
+.mem h1{
+    font-size: 1rem;
+    padding-left: 3rem;
+}
+.mem h1 span{
+    padding-left: 0.2rem;
+}
+.bbar{
+    width: 16rem;
+    height: 2rem;
+    border-radius: 1rem;
+    padding-top: 2;
+    margin-top: 3rem;
+    margin-left: 1.6rem;
+    background-color: #dbd7d7;
+}
+.bbar .paraa p{
+   font-size: 0.7rem;
+   padding-top: 0.6rem;
+   padding-left: 1rem;
+   color: #222222;
+}
+.bbar .btn button{
+    width: 7rem;
+    height: 2rem;
+    background-color: #FF6B00;
+    border-radius: 1rem;
+    margin-left: 9rem;
+    position: relative;
+    bottom: 1.5rem;
+
+}
+/* Contact section  */
+.contact{
+    background-color:#E5E5E5;
+    height: 20rem;
+    
+}
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.c-logo img{
+    width: 4rem;
+    height: 1rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+.c-logo p{
+    font-size: 0.8rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    color: #979797;
+
+}
+.c-logo .line2{ 
+  border-bottom: 0.2rem solid #FF6B00;
+  width: 10rem;
+  margin-left: 2rem;
+  border-radius: 1rem;
+  margin-top: 1rem
+}
+.social img{
+    width: 1rem;
+    height: 1rem;
+    margin-top: 1rem;
+}
+.part1 h1{
+    font-size: 0.9rem;
+    margin-top: 1.5rem;
+}
+.part1 p{
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+    color: #979797;
+}
+.part2 h2{
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+.part2 p{
+    font-size: 0.7rem;
+    margin-right: 1rem;
+    color: #979797;
+}
+.company{
+    text-align: center;
+    padding-top: 2rem;
+}
+.company h1{
+    font-size: 0.8rem; 
+}
+.company p{
+    font-size: 0.5rem;
+    color: #979797;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+@media(min-width:810px){
+     nav .hamburger{
+         display: none;
+     }
+     nav ul.nav-list{
+         width: auto;
+         display: flex;
+         align-items: center;
+         background: transparent;
+         margin-top: 0;
+         padding: 0;
+     }
+     .container{
+         margin-top: 0;
+     }
+     nav ul li{
+        padding: 0 1rem;
+        padding-bottom: 0.8rem;
+    }
+    .text-block p{
+        padding-right: 20rem;
+    }
+    .block{
+        height: 25rem;
+    }
+    .steps{
+         flex-wrap: nowrap;
+    }
+    .food-c{
+        display: flex;
+        align-items: center;
+    }
+    .foodbar{
+        width: 8rem;
+        height: 12rem;
+        background-color: white;
+        margin-left: 3rem;
+        border-radius: 1rem;
+        margin-top: 1.5rem;
+    }
+    .more{
+        display: none;
+    }
+    .media{
+        display: block;
+        border-right: 0.2rem solid #FF6B00;
+        padding-left: 1rem;
+    }
+    .foods{
+        display: none;
+    }
+    .media ul li {
+        text-decoration: none;
+        list-style: none;
+    }
+    .data h3{
+        font-size: 0.7rem;
+        padding-left: 1rem;
+        color: #FF6B00;
+        position: relative;
+        top: 9rem;
+     }
+     .data h1{
+         font-size: 1.2rem;
+         padding-left: 1rem;
+         position: relative;
+         top: 9rem;
+     }
+     .data h1 span{
+         color: #FF6B00;
+     }
+     .data p{
+         font-size: 0.5rem;
+         padding-left: 1rem;
+         position: relative;
+         top: 10rem;
+         left: -30rem;
+     }
+     .btn1 button{
+         background-color: #FF6B00;
+         width: 6rem;
+         height: 2rem;
+         border-radius: 0.6rem;
+         margin-left: 1rem;
+         position: relative;
+         top:11rem;
+     }
+     .heading h5,h2,p{
+         text-align: center;
+     }
+     .heading h5{
+         padding-left: 7rem;
+     }
+     .posts{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         width: auto;
+     }
+     .abtn button{
+          margin-left: 37rem;
+     }
+     .ice{
+         display: block;
+     }
+     .QA{
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+     }
+     .QA h4{
+          margin-left: -12rem;
+     }
+     .QA h1{
+        margin-left: -12rem;
+     }
+     .order {
+        margin-left: -13rem;
+     }
+     .track {
+        margin-left: -13rem;
+     }
+     .pay{
+        margin-left: -13rem;
+     }
+     .arrowb{
+         position: relative;
+         right: 15rem;
+     }
+     .mem{
+         margin-left: 18.9rem;
+     }
+     .page{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     .part1{
+         margin-right: 8rem;
+     }
+     .part1 p{
+          margin-top: 1rem;
+     }
+     .part2{
+         margin-right: 6rem;
+     }
+     .part2 h2{
+         margin-right: 3rem;
+     }
+   .part2 p{
+       margin-top: 1rem;
+   }
+   
+}
+@media(min-width:850px){
+    .mem{
+        margin-left: 30rem;
+    }
+}
